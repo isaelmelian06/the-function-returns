@@ -1,11 +1,42 @@
 /******************
  * YOUR CODE HERE *
  ******************/
+let greeting = "Hello";
 
+let sum = 0;
 
+let prod = 0;
 
+function greet(str) {
+  greeting = "Hello " + str;
+  return greeting;
+}
 
+function sumOfTwo(num1,num2){
+  sum = num1 + num2;
+  return sum;
+}
 
+function multiply(a,b,c){
+  prod = a * b * c;
+  return prod;
+}
+
+function returnWhatISay(sen){
+  return sen;
+}
+
+function sayHi(pg){
+  return "Hello " + pg +"!";
+}
+
+function divide(x,y){
+  return x / y;
+}
+
+function remainder(one,two){
+  return one % two;
+}
 /*********************************************************************************************************************
 
  * CODE BELOW HERE IS FOR INTERNAL USE ONLY! IT ENSURES THAT THE TESTING *
