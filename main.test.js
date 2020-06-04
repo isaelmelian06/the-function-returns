@@ -8,7 +8,7 @@ let sum = 0;
 let prod = 0;
 
 function greet(str) {
-  greeting = "Hello " + str;
+  greeting =  greeting + ' ' + str;
   return greeting;
 }
 
